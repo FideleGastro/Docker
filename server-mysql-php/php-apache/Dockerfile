@@ -1,6 +1,5 @@
 FROM php:5-apache
 
-# Install packages and libraries
 RUN apt-get update \
     && apt-get install -y \
         git \
@@ -21,7 +20,6 @@ RUN apt-get update \
         xsl \
         zip
 
-# enable mod_rewrite
 RUN a2enmod rewrite
 
 COPY www/ /var/www/html/
