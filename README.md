@@ -13,3 +13,5 @@ Note:
 - il semblerait que link fasse les communications via $SERVER_ADDR Ex: apache-test-> 172.18.0.1
 
 - Existe une liason "depends_on"
+
+- la bdd: https://dev.mysql.com/doc/index-other.html
