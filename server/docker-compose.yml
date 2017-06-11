@@ -13,11 +13,11 @@ services:
       - db
       
   apache:
-    build: ./php-apache 
+    build: ./apache 
     ports:
       - '8000:80'
     volumes:
-      - ./php-apache/www:/var/www/html  
+      - ./apache/www:/var/www/html  
     links:
       - db 
 
